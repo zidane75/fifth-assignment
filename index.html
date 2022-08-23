@@ -14,14 +14,14 @@
         <div class="text-center">
             <img class="w-50 " src="images/Footballer-Player-Transparent.png" alt="">
             <h1 class="text-warning">Paris Saint-Germain F.C.</h1>
-            <small class="text-info">Football club</small>
+            <small class="text-info fw-bold">Football club</small>
             <p class="text-white">Transfer market-Football website with focus on transfers & market values.</p>
         </div>
     </header>
     <main>
         <section class="container mt-5">
             <div>
-                <aside class="text-white float-end bg-black p-5 rounded mx-5">
+                <aside class="text-white float-end bg-black p-5 rounded mx-3 mt-4 me-4">
                     <h2 class="text-info">Selected-V</h2>
                     <ul id="card-player-name" class=" list-group-numbered">
                         <!-- <li>1</li>
@@ -39,7 +39,7 @@
                         <div class="card-body bg-black text-white">
                             <h5 id="p-name" class="card-title">Marcus Rashford</h5>
 
-                            <button type="button" class=" btn btn-outline-info btn-lg mt-2 "
+                            <button type="button" class=" btn btn-outline-info btn-lg mt-2 fw-bold"
                                 onclick="addPlayers(this)">SELECT</button>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         <img src="images/son-2.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-black text-white">
                             <h5 class="card-title">Son Heung-Min</h5>
-                            <button type="button" class=" btn btn-outline-info btn-lg"
+                            <button type="button" class=" btn btn-outline-info btn-lg fw-bold"
                                 onclick=" addPlayers (this)">SELECT</button>
                         </div>
                     </div>
@@ -60,11 +60,37 @@
                         <div class="card-body bg-black text-white">
                             <h5 class="card-title">Gabriel Jesus</h5>
 
-                            <button type="button" class=" btn btn-outline-info btn-lg"
+                            <button type="button" class=" btn btn-outline-info btn-lg fw-bold"
                                 onclick=" addPlayers (this)">SELECT</button>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <aside class="bg-black rounded text-white float-end p-3 ms-5 fw-bold">
+                    <div>
+                        <h2 class="text-info text-center ">Budget</h2>
+                        <small class="">Per Player</small>
+                        <input type="text">
+                        <br>
+                        <button type="button" class="btn btn-info mt-2 w-100">Calculate</button>
+                    </div>
+                    <div class="mt-4">
+                        <small>Players Expenses $<span>00</span></small>
+                        <br>
+                        <small>Manager</small>
+                        <input class="mt-4" type="text">
+                        <br>
+                        <small>Coach</small>
+                        <input class="mt-2 ms-3" type="text">
+                        <br>
+                        <button type="button" class="btn btn-info mt-2 w-100">Calculate Total</button>
+                        <small class="d-flex justify-content-between mt-4">Total <span
+                                class="text-warning">$00</span></small>
+                    </div>
+
+                </aside>
             </div>
 
 
